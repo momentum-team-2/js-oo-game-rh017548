@@ -1,4 +1,4 @@
-const Keyboarder = {
+ const Keyboarder = {
   keyState: {},
   isDown: function (keyCode) {
     return this.keyState[keyCode] === true
@@ -21,3 +21,4 @@ window.addEventListener('keyup', function (e) {
 })
 
 Keyboarder.KEYS = { LEFT: 37, RIGHT: 39, UP: 38, DOWN: 40, S: 83 }
+
